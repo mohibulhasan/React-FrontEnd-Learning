@@ -15,5 +15,9 @@ export default defineConfig({
       },
     },
   },
-  plugins: [react()],
+  plugins: [
+    react({
+      jsxRuntime: "automatic", // 👈 force automatic runtime
+    }),
+  ],
 });

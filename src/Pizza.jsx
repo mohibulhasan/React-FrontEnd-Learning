@@ -1,4 +1,4 @@
-//import react from 'react'
+import React from 'react'
 const Pizza = (props) => {
   return (
     <div className="pizza">
